@@ -14,12 +14,11 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       body: Column(
         children: <Widget>[
           Image.asset(
             'images/252.jpg',
-            width: 600,
+            width: 600, 
             height: 370,
             fit: BoxFit.cover,
           ),
@@ -34,14 +33,14 @@ class _MyHomePageState extends State<MyHomePage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "cat cat cat cat cat cat",
+                            "Nakharin Phaisila",
                             style: TextStyle(
                               fontSize: 25,
                               fontWeight: FontWeight.w900
                             ),
                           ),
                           Text(
-                            "Sisaket",
+                            "01/01/2546",
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -129,13 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 20,
                 ),
                 Text(
-                  'Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat '
-                  'Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat '
-                  'Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat '
-                  'Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat '
-                  'Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat '
-                  'Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat '
-                  'Cat Cat Cat Cat Cat Cat Cat Cat  '
+                  'Hello, my name is Nakharin Phaisila. Currently studying at Sisaket Rajabhat University. Computer Science. '
                   
                 ) 
                   
