@@ -107,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       Column(
                         children: [
                           Icon(
-                            Icons.share,
+                            Icons.attach_money,
                             color: Colors.blue,
                             size: 40,
                           ),
@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             height: 10,
                           ),
                           Text(
-                            "Share",
+                            "Sell",
                             style: TextStyle(
                               fontSize: 20,
                             ),
