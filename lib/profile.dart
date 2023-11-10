@@ -19,7 +19,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Image.asset(
             'images/252.jpg',
             width: 600, 
-            height: 370,
+            height: 450,
             fit: BoxFit.cover,
           ),
           const Padding(
