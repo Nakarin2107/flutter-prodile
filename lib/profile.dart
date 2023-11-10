@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Icon(
                             Icons.person,
-                            color: Colors.blue,
+                            color: Color.fromARGB(255, 0, 0, 0),
                             size: 40,
                           ),
                           SizedBox(
@@ -108,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Icon(
                             Icons.attach_money,
-                            color: Colors.blue,
+                            color: Color.fromARGB(255, 253, 2, 2),
                             size: 40,
                           ),
                           SizedBox(
